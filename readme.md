@@ -24,8 +24,8 @@ The application performs two main calculations:
    $$
    \text{New Salary} = \text{salary} +
    \left(
-     \text{salary} \times
-     \dfrac{\text{percentage}}{100}
+   \text{salary} \times
+   \frac{\text{percentage}}{100}
    \right)
    $$
 
