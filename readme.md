@@ -22,7 +22,10 @@ The application performs two main calculations:
 2. **Salary Increase**: The percentage increase is applied *only* to the gross salary, not the net salary.
 
    $$
-   New Salary = salary + (salary * percentage / 100)
+   \text{New Salary} = \mathit{salary} +
+   \left(
+   \mathit{salary} \times \frac{\mathit{percentage}}{100}
+   \right)
    $$
    
 ## How to Run
