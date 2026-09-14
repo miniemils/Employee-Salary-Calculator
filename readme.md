@@ -20,15 +20,10 @@ The application performs two main calculations:
    $$
 
 2. **Salary Increase**: The percentage increase is applied *only* to the gross salary, not the net salary.
+   $$
+   New Salary = salary + (salary * percentage / 100)
+   $$
    
-   $$
-   \text{New Salary} = \text{salary} +
-   \left(
-   \text{salary} \times
-   \frac{\text{percentage}}{100}
-   \right)
-   $$
-
 ## How to Run
 
 1. Ensure you have Java installed on your machine.
