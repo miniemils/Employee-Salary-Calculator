@@ -20,6 +20,7 @@ The application performs two main calculations:
    $$
 
 2. **Salary Increase**: The percentage increase is applied *only* to the gross salary, not the net salary.
+
    $$
    New Salary = salary + (salary * percentage / 100)
    $$
